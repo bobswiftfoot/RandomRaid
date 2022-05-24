@@ -38,8 +38,6 @@ function startGame()
     questionsScreen.querySelector("#random6").textContent = members[5].m;
     questionsScreen.querySelector("#random7").textContent = members[6].m;
     questionsScreen.querySelector("#random8").textContent = members[7].m;
-    startScreen.setAttribute("style", "display:none");
-    questionsScreen.setAttribute("style", "display:block");  
 }
 
 function randomJob(e)

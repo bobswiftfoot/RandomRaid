@@ -7,59 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Code Quiz</title>
+    <title>Raid Randomizer</title>
 </head>
 
 <body>
+    <header class="row justify-content-md-center m-3">
+        <h1>Naia's Fizzy Jizzy Raid Randomizer</h1>
+    </header>
     <section class="startScreen" id="startScreen">
-        <h1>Raid Randomizer</h1>
+    </section>
+    <section class="questionScreen row text-align-center justify-content-md-center" id="questionsScreen">
         <button id="startQuiz" class="btn btn-primary btn-lg">Random Order</button>
-    </section>
-    <section class="questionScreen row text-align-center" id="questionsScreen">
-        <h1 class="question col-12">Today's Order</h1>
-        <div class="buttonWrapper col-12 m-3">
-            <button id="random1" class="btn btn-info" value="0">Random Job</button>
-            <p id="jobChoice1"></p>
+        <div class="buttonWrapper col-12 m-3 row justify-content-md-center">
+            <button id="random1" class="btn btn-info col-1" value="0">Steale</button>
+            <h3 id="jobChoice1" class="col-1"></h3>
         </div>
-        <div class="buttonWrapper col-12 m-3">
-            <button id="random2" class="btn btn-info" value="1">Random Job</button>
-            <p id="jobChoice1"></p>
+        <div class="buttonWrapper col-12 m-3 row justify-content-md-center">
+            <button id="random2" class="btn btn-info col-1" value="1">Bellamy</button>
+            <h3 id="jobChoice1" class="col-1"></h3>
         </div>
-        <div class="buttonWrapper col-12 m-3">
-            <button id="random3" class="btn btn-info" value="2">Random Job</button>
-            <p id="jobChoice1"></p>
+        <div class="buttonWrapper col-12 m-3 row justify-content-md-center">
+            <button id="random3" class="btn btn-info col-1" value="2">Berry</button>
+            <h3 id="jobChoice1" class="col-1"></h3>
         </div>
-        <div class="buttonWrapper col-12 m-3">
-            <button id="random4" class="btn btn-info" value="3">Random Job</button>
-            <p id="jobChoice1"></p>
+        <div class="buttonWrapper col-12 m-3 row justify-content-md-center">
+            <button id="random4" class="btn btn-info col-1" value="3">Maika</button>
+            <h3 id="jobChoice1" class="col-1"></h3>
         </div>
-        <div class="buttonWrapper col-12 m-3">
-            <button id="random5" class="btn btn-info" value="4">Random Job</button>
-            <p id="jobChoice1"></p>
+        <div class="buttonWrapper col-12 m-3 row justify-content-md-center">
+            <button id="random5" class="btn btn-info col-1" value="4">Mari</button>
+            <h3 id="jobChoice1" class="col-1"></h3>
         </div>
-        <div class="buttonWrapper col-12 m-3">
-            <button id="random6" class="btn btn-info" value="5">Random Job</button>
-            <p id="jobChoice1"></p>
+        <div class="buttonWrapper col-12 m-3 row justify-content-md-center">
+            <button id="random6" class="btn btn-info col-1" value="5">Naia</button>
+            <h3 id="jobChoice1" class="col-1"></h3>
         </div>
-        <div class="buttonWrapper col-12 m-3">
-            <button id="random7" class="btn btn-info" value="6">Random Job</button>
-            <p id="jobChoice1"></p>
+        <div class="buttonWrapper col-12 m-3 row justify-content-md-center">
+            <button id="random7" class="btn btn-info col-1" value="6">Solelle</button>
+            <h3 id="jobChoice1" class="col-1"></h3>
         </div>
-        <div class="buttonWrapper col-12 m-3">
-            <button id="random8" class="btn btn-info" value="7">Random Job</button>
-            <p id="jobChoice1"></p>
+        <div class="buttonWrapper col-12 m-3 row justify-content-md-center">
+            <button id="random8" class="btn btn-info col-1" value="7">Reina</button>
+            <h3 id="jobChoice1" class="col-1"></h3>
         </div>
     </section>
-    <section class="resultsScreen" id="resultsScreen">
-        <h1>All Done!</h1>
-        <p>Your Final Score is <span class="scoreSpan">0</span></p>
-        <label for="initals">Enter Initals: </label>
-        <input type="text" name="initals" id="initals"/>
-        <button id="resultSubmit" class="btn btn-success">Submit</button>
-    </section>
-    <div class="resultSection" id="resultSection">
-        <p class="result"></p>
-    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
