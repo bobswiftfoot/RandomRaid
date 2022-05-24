@@ -4,14 +4,14 @@ var questionsScreen = document.querySelector('#questionsScreen');
 var resultsScreen = document.querySelector('#resultsScreen');
 var resultSection = document.querySelector('#resultSection');
 
-var members = [ {m:"Steale", j:["MCH", "AST", "PLD"]}, 
-                {m:"Bellamy", j:["MCH", "AST", "PLD"]}, 
-                {m:"Berry", j:["MCH", "AST", "PLD"]}, 
-                {m:"Maika", j:["MCH", "AST", "PLD"]}, 
-                {m:"Mari", j:["MCH", "AST", "PLD"]}, 
-                {m:"Naia", j:["MCH", "AST", "PLD"]}, 
-                {m:"Solelle", j:["MCH", "AST", "PLD"]}, 
-                {m:"Reina", j:["MCH", "AST", "PLD"]}];
+var members = [ {m:"Steale",    j:["PLD", "WAR", "DRK", "GNB", "RPR"]}, 
+                {m:"Bellamy",   j:["WAR", "DRK", "GNB", "MNK", "WHM", "SCH", "AST", "SGE", "MCH", "DNC", "SMN"]}, 
+                {m:"Berry",     j:["GNB", "DRG", "RPR", "WHM", "SCH", "SGE", "BRD", "SMN", ]}, 
+                {m:"Maika",     j:["WAR", "SAM", "RPR", "WHM", "SCH", "AST", "SGE", "BRD", "MCH", "DNC", "BLM", "SMN", "RDM"]}, 
+                {m:"Mari",      j:["PLD", "GNB", "DRG", "SAM", "RPR", "WHM", "SCH", "AST", "SGE", "BRD", "MCH", "DNC", "BLM", "SMN", "RDM"]}, 
+                {m:"Naia",      j:["PLD", "WAR", "DRK", "GNB", "MNK", "DRG", "NIN", "SAM", "RPR", "WHM", "SCH", "AST", "SGE", "BRD", "MCH", "DNC", "BLM", "SMN", "RDM"]}, 
+                {m:"Solelle",   j:["GNB", "RPR", "SCH","DNC", "SMN"]}, 
+                {m:"Reina",     j:["WAR", "DRG", "NIN", "SAM", "RPR","BLM"]}];
 
 function initilize()
 {
