@@ -1,0 +1,37 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section
+{
+    margin: 100px;
+    text-align: center;
+}
+
+.startScreen p
+{
+    font-size: 27px;
+    margin: 10px 0;
+}
+
+.questionScreen, .resultsScreen
+{
+    display: none;
+}
+
+.resultsScreen p
+{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.resultSection
+{
+    display: none;
+    border-top: solid 1px;
+    margin: 50px;
+}
+
